@@ -1,0 +1,1526 @@
+{
+ "version": "2026-11-10",
+ "defaultLanguage": "en",
+ "languages": {
+  "en": {
+   "lang": "en",
+   "languageName": "English",
+   "navLabel": "Guide",
+   "languageLabel": "Language",
+   "pageTitle": "How to use LeNouAI",
+   "pageIntro": "A quick guide to the main features of the LeNouAI app for iPhone. Labels in bold are the words you see on screen.",
+   "tocTitle": "On this page",
+   "sections": [
+    {
+     "id": "getting-started",
+     "icon": "rocket",
+     "title": "Getting started",
+     "items": [
+      {
+       "title": "Create your account",
+       "steps": [
+        "Download LeNouAI from the App Store and sign up with your email.",
+        "New accounts start with a free 30-day Personal trial. No payment is needed to start."
+       ]
+      },
+      {
+       "title": "Find your way around",
+       "steps": [
+        "The tabs at the bottom are **Home**, **Tasks**, **Scan Receipts** (the camera button in the middle), **Financial** and **Plan My Day**.",
+        "**Settings** is the gear icon at the top right of **Home**.",
+        "The round green pen button at the bottom right opens a Quick Note from almost any screen."
+       ]
+      },
+      {
+       "title": "Set your time zone and language",
+       "steps": [
+        "Go to **Settings** → **My Profile** → **Preferences** and check your **Time zone**. Tasks, reminders and due dates follow this time zone.",
+        "The app is available in English, Vietnamese, Spanish and Simplified Chinese."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "assistant",
+     "icon": "sparkles",
+     "title": "Your AI assistant",
+     "items": [
+      {
+       "title": "Ask or speak",
+       "steps": [
+        "On **Home**, tap **Ask Nori** to type a question, or **Speak to Nori** to talk. In voice mode, tap the microphone each time you want to record.",
+        "The assistant is called Nori by default. If you give it another name, the buttons show that name."
+       ]
+      },
+      {
+       "title": "You stay in control",
+       "steps": [
+        "When the assistant suggests a change, such as a new task or an event, it shows a proposal first.",
+        "Nothing is saved until you review it and tap **Confirm**."
+       ]
+      },
+      {
+       "title": "Nori Memory (optional)",
+       "steps": [
+        "Memory is off by default. Turn it on in **Settings** → **AI Assistant** → Memory & quick access → **Nori Memory**.",
+        "Ask Nori to remember a short preference or goal, then review the text and choose Save Memory or Not Now."
+       ]
+      },
+      {
+       "title": "Open voice mode from your Home Screen",
+       "steps": [
+        "**Settings** → **AI Assistant** → Memory & quick access → LeNouAI Quick Access shows the steps to add a one-tap Apple Shortcut."
+       ]
+      },
+      {
+       "title": "Daily AI limits",
+       "steps": [
+        "Each plan includes a daily amount of AI chat, voice and receipt reading. You can see today's usage in **Settings** → **Subscription**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tasks",
+     "icon": "check-square",
+     "title": "Tasks",
+     "items": [
+      {
+       "title": "Add a task",
+       "steps": [
+        "Quick way: in **Tasks**, type in **Add a task** and tap Add. It goes to **Anytime**, with no due date.",
+        "Full form: tap + (**New task**). Fill in the task, then add an optional **Due date**, **Add a time**, **Smart reminders**, **Priority**, **Repeat**, category and notes. Tap Save.",
+        "You can also ask your assistant to create a task, then **Confirm** it."
+       ]
+      },
+      {
+       "title": "Today, Upcoming and Anytime",
+       "steps": [
+        "**Today** shows what is due today. **Upcoming** shows later tasks.",
+        "**Anytime** holds tasks with no due date. They never become overdue."
+       ]
+      },
+      {
+       "title": "Repeating tasks",
+       "steps": [
+        "In the task form, tap **More options** → **Repeat** and choose Daily, Weekly, Monthly, Yearly or **Custom**.",
+        "Example, payroll on the 1st and 16th of every month: choose **Custom**, every 1 month, on days 1 and 16.",
+        "Important: the **Due date** must be one of the repeat days. With days 1 and 16, set the due date to the next 1st or 16th, or the task cannot be saved.",
+        "To end a repeating task, open an unfinished occurrence and tap **Stop repeats**. Completed history stays."
+       ]
+      },
+      {
+       "title": "Reminders",
+       "steps": [
+        "Give the task a **Due date** and **Add a time**. **Smart reminders** picks reminder times from the priority, or you can choose your own times."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "calendar",
+     "icon": "calendar",
+     "title": "Calendar and reminders",
+     "items": [
+      {
+       "title": "Open the calendar",
+       "steps": [
+        "On **Home**, tap **Full Calendar** above the mini calendar, or tap a day in the mini calendar.",
+        "Switch between Day, Week and Month views."
+       ]
+      },
+      {
+       "title": "Add an event or a reminder",
+       "steps": [
+        "Tap + (**New entry**) and choose an event, a task or a **Reminder**.",
+        "For a reminder, enter a title, date and time, then save. Events have a **Notify me** switch."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plan",
+     "icon": "sun",
+     "title": "Plan My Day, Daily Briefing and Evening Review",
+     "items": [
+      {
+       "title": "Plan My Day",
+       "steps": [
+        "Open **Plan My Day** and tap **Add tasks** to pick tasks for a day. Choose All Day or a time, then save.",
+        "Planning a task does not change its due date. **Remove from My Plan** takes it off the plan without deleting it."
+       ]
+      },
+      {
+       "title": "Daily Briefing",
+       "steps": [
+        "From **Home**, open the **Daily Briefing** to see today's planned tasks, overdue tasks and calendar events in one place."
+       ]
+      },
+      {
+       "title": "Evening Review",
+       "steps": [
+        "The **Evening Review** shows what you finished today, what is still open, and lets you plan tomorrow."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "notes",
+     "icon": "pen-line",
+     "title": "Notes",
+     "items": [
+      {
+       "title": "Quick Note",
+       "steps": [
+        "Tap the round green pen button. Choose **Type a Note** or **Record a Voice Note**.",
+        "To see every note, tap **View All Notes**. Notes have folders, search and an archive."
+       ]
+      },
+      {
+       "title": "Voice notes",
+       "steps": [
+        "The original recording and transcript are always kept.",
+        "**Edit Transcript** saves your corrections separately, so the original never changes."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "receipts",
+     "icon": "camera",
+     "title": "Scan Receipts",
+     "items": [
+      {
+       "title": "Scan a receipt",
+       "steps": [
+        "Tap **Scan Receipts**, the camera button in the middle of the bottom tabs, and take a photo of the receipt.",
+        "The app reads the receipt for you to review. Nothing is recorded as spending until you confirm it."
+       ]
+      },
+      {
+       "title": "Find old receipts",
+       "steps": [
+        "Tap **Scan Receipts** → **View Receipt Vault**. Filter by All receipts or Needs Review, or search by store name or receipt text."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "personal-finance",
+     "icon": "wallet",
+     "title": "Personal finances",
+     "items": [
+      {
+       "title": "How money works in LeNouAI",
+       "steps": [
+        "LeNouAI does not connect to your bank. Every amount comes from what you enter, so your data stays in your hands.",
+        "Open **Financial** → **Personal**. The dashboard shows **My Accounts**, **My Income**, **My Expenses**, **My Debts**, **My Wealth** and **Net Income** for the month you choose."
+       ]
+      },
+      {
+       "title": "My Accounts",
+       "steps": [
+        "Add your checking, savings and cash accounts with a starting balance and its date.",
+        "A balance is the starting balance plus every payment, income or transfer you record on that account from that date.",
+        "If a balance looks wrong, compare it with your bank statement, fix the wrong entries, then use **Reconcile Balance**."
+       ]
+      },
+      {
+       "title": "Bills and spending",
+       "steps": [
+        "**My Expenses** has **Recurring Bills** (rent, phone, insurance…) and **One-time Expenses**.",
+        "On **Home**, **Quick Spending** adds an everyday expense fast. Check **Paid With** before saving: choose the account the money came from, so its balance goes down."
+       ]
+      },
+      {
+       "title": "Change a bill",
+       "steps": [
+        "Open the bill → **Edit this occurrence only**.",
+        "**This month only** changes just the current month, including its amount and due date.",
+        "**This month and future months** changes this month and every month after it.",
+        "**Change recurring schedule** sets a new schedule that starts next month. The current month's bill stays as it is."
+       ]
+      },
+      {
+       "title": "Loans (My Debts)",
+       "steps": [
+        "**My Debts** → **Add Debt**: choose the loan type, then enter its name, current balance and the date of that balance. The interest rate and usual payment are optional.",
+        "For each payment, open the loan → **Record Payment** and split the amount into **Principal**, **Interest** and **Fees**. Only the principal lowers the balance.",
+        "Paying interest only, for example on a family loan: put the whole amount in **Interest** and 0 in **Principal**. The loan balance stays the same, and the interest counts as that month's expense."
+       ]
+      },
+      {
+       "title": "Credit cards",
+       "steps": [
+        "Credit cards live in **My Debts**, not in **My Accounts**, because a card balance is money you owe.",
+        "To track interest, open the card → **Interest & Billing**. Enter your APR in **Billing Settings**.",
+        "Each month, after the statement closes, use **Review Statement** to enter the statement balance, minimum payment and interest charged, exactly as printed."
+       ]
+      },
+      {
+       "title": "My Wealth",
+       "steps": [
+        "Add assets such as a home, vehicles, investments or retirement accounts with their estimated value. Cash and savings belong in **My Accounts**, not here."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "business",
+     "icon": "briefcase",
+     "title": "Business tools",
+     "items": [
+      {
+       "title": "Who it is for",
+       "steps": [
+        "Business tools are included in the Business and Business Duo plans.",
+        "Keep business money separate from personal money. Switch at the top of **Financial**: **Personal** or **Business**."
+       ]
+      },
+      {
+       "title": "Business profiles",
+       "steps": [
+        "**Financial** → **Business** → **Switch Business** → Add to create a business profile. You can have more than one business and switch between them."
+       ]
+      },
+      {
+       "title": "Business dashboard",
+       "steps": [
+        "See business accounts, **Business Revenue**, **Business Expenses**, **Business Debts**, **Business Value** and **Net Income** for the selected month.",
+        "**Reports** has P&L, cash flow, forecast and export tools."
+       ]
+      },
+      {
+       "title": "Payroll",
+       "steps": [
+        "**Business Expenses** → **Payroll** has three tabs: **Employees**, **Quick Payroll** and **Payroll History**.",
+        "Add each employee with their classification (W-2 employee or 1099 contractor) and pay method. LeNouAI never decides a worker's classification.",
+        "LeNouAI helps you prepare and record payroll. It does not pay employees or file payroll taxes."
+       ]
+      },
+      {
+       "title": "Business debts",
+       "steps": [
+        "Track business loans, business credit cards, merchant cash advances (MCA) and unpaid compensation in **Business Debts**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "duo",
+     "icon": "users",
+     "title": "LeNou Duo",
+     "items": [
+      {
+       "title": "Share with one other person",
+       "steps": [
+        "**Settings** → **LeNou Duo** → Invite someone to Duo → create an invitation link and share it.",
+        "Each link works once and expires after 7 days. Each person keeps their own login."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plans",
+     "icon": "credit-card",
+     "title": "Plans and billing",
+     "items": [
+      {
+       "title": "Plans",
+       "steps": [
+        "Personal: $19.99/month or $199.99/year.",
+        "Personal Duo: $29.99/month or $299.99/year.",
+        "Business: $39.99/month or $399.99/year.",
+        "Business Duo: $49.99/month or $499.99/year.",
+        "Prices are in USD. Subscriptions are sold and billed by Apple through the App Store."
+       ]
+      },
+      {
+       "title": "Manage your subscription",
+       "steps": [
+        "**Settings** → **Subscription**: choose a plan, use **Restore purchases** after reinstalling, or tap **Manage in App Store** to change or cancel.",
+        "You can also cancel in iPhone Settings → your name → Subscriptions. Refunds are requested from Apple."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "account",
+     "icon": "shield",
+     "title": "Account, privacy and security",
+     "items": [
+      {
+       "title": "Change or reset your password",
+       "steps": [
+        "**Settings** → **Privacy & Security** → **Change password**.",
+        "Forgot it? On the sign-in screen tap **Forgot password?** and follow the code sent to your email."
+       ]
+      },
+      {
+       "title": "Export or delete your data",
+       "steps": [
+        "You can export your data in **Privacy & Security** first if you want a copy.",
+        "To delete your account: **Settings** → **Privacy & Security** → **Delete Account**. Type DELETE and your password, then delete now or after 7 days. You can cancel during the 7 days.",
+        "Deleting your account does not cancel an App Store subscription. Cancel it in **Manage in App Store**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "support",
+     "icon": "life-buoy",
+     "title": "Need help?",
+     "items": [
+      {
+       "title": "Contact us",
+       "steps": [
+        "Email contact@lenouai.com. Tell us what happened, which screen you were on, and the email you use to sign in.",
+        "Please never send passwords or full card or bank numbers."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "vi": {
+   "lang": "vi",
+   "languageName": "Tiếng Việt",
+   "navLabel": "Hướng dẫn",
+   "languageLabel": "Ngôn ngữ",
+   "pageTitle": "Hướng dẫn sử dụng LeNouAI",
+   "pageIntro": "Hướng dẫn nhanh các tính năng chính của app LeNouAI trên iPhone. Chữ in đậm là chữ bạn thấy trên màn hình khi app để tiếng Việt.",
+   "tocTitle": "Trong trang này",
+   "sections": [
+    {
+     "id": "getting-started",
+     "icon": "rocket",
+     "title": "Bắt đầu",
+     "items": [
+      {
+       "title": "Tạo tài khoản",
+       "steps": [
+        "Tải LeNouAI trên App Store và đăng ký bằng email của bạn.",
+        "Tài khoản mới được dùng thử miễn phí gói Personal trong 30 ngày, không cần thanh toán để bắt đầu."
+       ]
+      },
+      {
+       "title": "Làm quen với app",
+       "steps": [
+        "Các tab ở dưới cùng là **Trang chủ**, **Công việc**, **Quét hóa đơn** (nút máy ảnh ở giữa), **Tài chính** và **Lên kế hoạch**.",
+        "**Cài đặt** là biểu tượng bánh răng ở góc trên bên phải của **Trang chủ**.",
+        "Nút bút tròn màu xanh ở góc dưới bên phải mở Ghi chú nhanh từ hầu hết các màn hình."
+       ]
+      },
+      {
+       "title": "Chọn múi giờ và ngôn ngữ",
+       "steps": [
+        "Vào **Cài đặt** → **Hồ sơ của tôi** → **Tùy chọn** và kiểm tra **Múi giờ**. Công việc, lời nhắc và ngày đến hạn đều theo múi giờ này.",
+        "App có tiếng Anh, tiếng Việt, tiếng Tây Ban Nha và tiếng Trung giản thể."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "assistant",
+     "icon": "sparkles",
+     "title": "Trợ lý AI của bạn",
+     "items": [
+      {
+       "title": "Hỏi bằng chữ hoặc bằng giọng nói",
+       "steps": [
+        "Ở **Trang chủ**, bấm **Hỏi Nori** để gõ câu hỏi, hoặc **Nói chuyện với Nori** để nói. Ở chế độ nói, mỗi lần muốn ghi âm bạn bấm vào micro.",
+        "Trợ lý mặc định tên là Nori. Nếu bạn đặt tên khác, các nút sẽ hiện tên đó."
+       ]
+      },
+      {
+       "title": "Bạn luôn là người quyết định",
+       "steps": [
+        "Khi trợ lý đề xuất thay đổi, ví dụ thêm một công việc hay một sự kiện, app sẽ hiện đề xuất trước.",
+        "Không có gì được lưu cho tới khi bạn xem lại và bấm **Xác nhận**."
+       ]
+      },
+      {
+       "title": "Bộ nhớ Nori (tùy chọn)",
+       "steps": [
+        "Bộ nhớ mặc định đang tắt. Bật trong **Cài đặt** → **Trợ lý AI** → Bộ nhớ và truy cập nhanh → **Bộ nhớ Nori**.",
+        "Nhờ Nori ghi nhớ một sở thích hoặc mục tiêu ngắn, xem lại nội dung rồi chọn lưu hoặc để sau."
+       ]
+      },
+      {
+       "title": "Mở chế độ nói từ màn hình iPhone",
+       "steps": [
+        "**Cài đặt** → **Trợ lý AI** → Bộ nhớ và truy cập nhanh → LeNouAI Quick Access có các bước tạo một Phím tắt (Shortcut) của Apple để mở bằng một chạm."
+       ]
+      },
+      {
+       "title": "Giới hạn AI mỗi ngày",
+       "steps": [
+        "Mỗi gói có một lượng dùng AI mỗi ngày cho chat, giọng nói và đọc hóa đơn. Xem lượng đã dùng hôm nay trong **Cài đặt** → **Gói đăng ký**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tasks",
+     "icon": "check-square",
+     "title": "Công việc",
+     "items": [
+      {
+       "title": "Thêm một công việc",
+       "steps": [
+        "Cách nhanh: trong **Công việc**, gõ vào ô **Thêm tác vụ** rồi bấm thêm. Công việc sẽ nằm ở **Bất kỳ lúc nào**, không có ngày đến hạn.",
+        "Form đầy đủ: bấm + (**Tác vụ mới**). Điền tên công việc, rồi thêm nếu cần: **Ngày đến hạn**, **Thêm thời gian**, **Nhắc nhở thông minh**, **Mức ưu tiên**, **Lặp lại**, phân loại và ghi chú. Bấm lưu.",
+        "Bạn cũng có thể nhờ trợ lý tạo công việc, rồi bấm **Xác nhận**."
+       ]
+      },
+      {
+       "title": "Hôm nay, Sắp tới và Bất kỳ lúc nào",
+       "steps": [
+        "**Hôm nay** là những việc đến hạn hôm nay. **Sắp tới** là những việc ở các ngày sau.",
+        "**Bất kỳ lúc nào** là những việc không có ngày đến hạn, nên không bao giờ bị trễ hạn."
+       ]
+      },
+      {
+       "title": "Công việc lặp lại",
+       "steps": [
+        "Trong form công việc, bấm **Thêm tùy chọn** → **Lặp lại** và chọn hằng ngày, hằng tuần, hằng tháng, hằng năm hoặc **Tùy chỉnh**.",
+        "Ví dụ trả lương ngày 1 và 16 hằng tháng: chọn **Tùy chỉnh**, mỗi 1 tháng, vào ngày 1 và 16.",
+        "Lưu ý: **Ngày đến hạn** phải trùng một trong các ngày lặp. Với ngày 1 và 16, hãy đặt ngày đến hạn là ngày 1 hoặc 16 sắp tới, nếu không sẽ không lưu được.",
+        "Muốn ngừng một công việc lặp lại, mở một kỳ chưa làm và bấm **Dừng lặp lại**. Lịch sử các kỳ đã hoàn thành vẫn được giữ."
+       ]
+      },
+      {
+       "title": "Lời nhắc",
+       "steps": [
+        "Đặt **Ngày đến hạn** và **Thêm thời gian** cho công việc. **Nhắc nhở thông minh** tự chọn giờ nhắc theo mức ưu tiên, hoặc bạn tự chọn giờ."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "calendar",
+     "icon": "calendar",
+     "title": "Lịch và lời nhắc",
+     "items": [
+      {
+       "title": "Mở lịch",
+       "steps": [
+        "Ở **Trang chủ**, bấm **Lịch đầy đủ** phía trên lịch nhỏ, hoặc bấm vào một ngày trên lịch nhỏ.",
+        "Chuyển giữa xem theo ngày, tuần và tháng."
+       ]
+      },
+      {
+       "title": "Thêm sự kiện hoặc lời nhắc",
+       "steps": [
+        "Bấm + (**Mục nhập mới**) và chọn sự kiện, công việc hoặc **Lời nhắc**.",
+        "Với lời nhắc, nhập tiêu đề, ngày và giờ rồi lưu. Sự kiện có công tắc **Thông báo cho tôi**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plan",
+     "icon": "sun",
+     "title": "Lên kế hoạch, Tổng quan hàng ngày và Tổng kết buổi tối",
+     "items": [
+      {
+       "title": "Lên kế hoạch trong ngày",
+       "steps": [
+        "Mở **Lên kế hoạch** và bấm **Thêm việc** để chọn các công việc cho một ngày. Chọn cả ngày hoặc một giờ cụ thể rồi lưu.",
+        "Đưa công việc vào kế hoạch không làm đổi ngày đến hạn của nó. **Bỏ khỏi kế hoạch** chỉ bỏ ra khỏi kế hoạch, không xóa công việc."
+       ]
+      },
+      {
+       "title": "Tổng quan hàng ngày",
+       "steps": [
+        "Từ **Trang chủ**, mở **Tổng quan hàng ngày** để xem cùng lúc các việc đã lên kế hoạch hôm nay, các việc trễ hạn và sự kiện trên lịch."
+       ]
+      },
+      {
+       "title": "Tổng kết buổi tối",
+       "steps": [
+        "**Tổng kết buổi tối** cho bạn xem những việc đã xong hôm nay, những việc còn dở, và lên kế hoạch cho ngày mai."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "notes",
+     "icon": "pen-line",
+     "title": "Ghi chú",
+     "items": [
+      {
+       "title": "Ghi chú nhanh",
+       "steps": [
+        "Bấm nút bút tròn màu xanh. Chọn **Nhập ghi chú** hoặc **Ghi âm ghi chú thoại**.",
+        "Muốn xem tất cả ghi chú, bấm **Xem tất cả ghi chú**. Ghi chú có thư mục, tìm kiếm và lưu trữ."
+       ]
+      },
+      {
+       "title": "Ghi chú giọng nói",
+       "steps": [
+        "Bản ghi âm và bản chuyển âm gốc luôn được giữ lại.",
+        "**Chỉnh sửa bản chuyển âm** lưu phần bạn sửa thành một bản riêng, nên bản gốc không bao giờ bị thay đổi."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "receipts",
+     "icon": "camera",
+     "title": "Quét hóa đơn",
+     "items": [
+      {
+       "title": "Quét một hóa đơn",
+       "steps": [
+        "Bấm **Quét hóa đơn**, nút máy ảnh ở giữa thanh tab, rồi chụp hóa đơn.",
+        "App đọc hóa đơn để bạn xem lại. Không có khoản chi nào được ghi lại cho tới khi bạn xác nhận."
+       ]
+      },
+      {
+       "title": "Tìm lại hóa đơn cũ",
+       "steps": [
+        "Bấm **Quét hóa đơn** → **Xem Kho lưu biên lai LeNou**. Lọc theo tất cả hóa đơn hoặc hóa đơn cần xem lại, hoặc tìm theo tên cửa hàng hay nội dung hóa đơn."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "personal-finance",
+     "icon": "wallet",
+     "title": "Tài chính cá nhân",
+     "items": [
+      {
+       "title": "LeNouAI quản lý tiền như thế nào",
+       "steps": [
+        "LeNouAI không kết nối với ngân hàng của bạn. Mọi con số đều do bạn nhập, nên dữ liệu luôn nằm trong tay bạn.",
+        "Mở **Tài chính** → **Cá nhân**. Màn hình tổng quan hiện **Tài khoản của tôi**, **Thu nhập của tôi**, **Chi phí của tôi**, **Khoản nợ của tôi**, **Tài sản của tôi** và **Thu nhập ròng** của tháng bạn chọn."
+       ]
+      },
+      {
+       "title": "Tài khoản của tôi",
+       "steps": [
+        "Thêm các tài khoản checking, savings và tiền mặt, kèm số dư ban đầu và ngày của số dư đó.",
+        "Số dư bằng số dư ban đầu cộng với mọi khoản chi, thu nhập hay chuyển tiền bạn ghi lại trên tài khoản đó từ ngày đó trở đi.",
+        "Nếu số dư có vẻ sai, hãy so với sao kê ngân hàng, sửa các khoản ghi sai, rồi dùng **Đối chiếu số dư**."
+       ]
+      },
+      {
+       "title": "Hóa đơn và chi tiêu",
+       "steps": [
+        "**Chi phí của tôi** có **Hóa đơn định kỳ** (tiền nhà, điện thoại, bảo hiểm…) và **Chi phí một lần**.",
+        "Ở **Trang chủ**, **Chi tiêu nhanh** giúp ghi nhanh một khoản chi hằng ngày. Trước khi lưu, kiểm tra ô **Thanh toán bằng**: chọn tài khoản đã trả tiền để số dư của tài khoản đó giảm theo."
+       ]
+      },
+      {
+       "title": "Sửa một hóa đơn",
+       "steps": [
+        "Mở hóa đơn → **Chỉ sửa kỳ này**.",
+        "**Chỉ tháng này** chỉ đổi tháng hiện tại, kể cả số tiền và ngày đến hạn.",
+        "**Tháng này và các tháng tương lai** đổi tháng này và mọi tháng sau đó.",
+        "**Đổi lịch định kỳ** đặt lịch mới bắt đầu từ tháng sau. Hóa đơn của tháng hiện tại giữ nguyên."
+       ]
+      },
+      {
+       "title": "Khoản vay (Khoản nợ của tôi)",
+       "steps": [
+        "**Khoản nợ của tôi** → **Thêm khoản nợ**: chọn loại khoản vay, nhập tên, số dư hiện tại và ngày của số dư đó. Lãi suất và số tiền trả thường lệ có thể bỏ trống.",
+        "Mỗi lần trả, mở khoản vay → **Ghi nhận thanh toán** và chia số tiền thành **Gốc**, **Tiền lãi** và **Phí**. Chỉ phần gốc mới làm giảm số dư khoản vay.",
+        "Chỉ trả lãi, ví dụ khoản vay từ người thân: nhập toàn bộ số tiền vào **Tiền lãi**, **Gốc** để 0. Số dư khoản vay giữ nguyên, và tiền lãi được tính vào chi phí của tháng đó."
+       ]
+      },
+      {
+       "title": "Thẻ tín dụng",
+       "steps": [
+        "Thẻ tín dụng nằm trong **Khoản nợ của tôi**, không nằm trong **Tài khoản của tôi**, vì số dư thẻ là tiền bạn đang nợ.",
+        "Muốn theo dõi tiền lãi, mở thẻ → **Lãi suất & Sao kê**. Nhập APR trong **Cài đặt sao kê**.",
+        "Mỗi tháng, sau khi sao kê chốt, dùng **Xem lại sao kê** để nhập số dư sao kê, số tiền trả tối thiểu và tiền lãi bị tính, đúng như trên sao kê."
+       ]
+      },
+      {
+       "title": "Tài sản của tôi",
+       "steps": [
+        "Thêm tài sản như nhà, xe, tài khoản đầu tư hay hưu trí cùng giá trị ước tính. Tiền mặt và tiền tiết kiệm thuộc về **Tài khoản của tôi**, không nhập ở đây."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "business",
+     "icon": "briefcase",
+     "title": "Công cụ kinh doanh",
+     "items": [
+      {
+       "title": "Dành cho ai",
+       "steps": [
+        "Công cụ kinh doanh có trong gói Business và Business Duo.",
+        "Hãy tách riêng tiền kinh doanh và tiền cá nhân. Chuyển qua lại ở đầu màn hình **Tài chính**: **Cá nhân** hoặc **Kinh doanh**."
+       ]
+      },
+      {
+       "title": "Hồ sơ doanh nghiệp",
+       "steps": [
+        "**Tài chính** → **Kinh doanh** → **Đổi doanh nghiệp** → thêm để tạo hồ sơ doanh nghiệp. Bạn có thể có nhiều doanh nghiệp và chuyển qua lại giữa chúng."
+       ]
+      },
+      {
+       "title": "Tổng quan kinh doanh",
+       "steps": [
+        "Xem tài khoản doanh nghiệp, **Doanh thu kinh doanh**, **Chi phí kinh doanh**, **Nợ doanh nghiệp**, **Giá trị tài sản DN** và **Thu nhập ròng** của tháng đã chọn.",
+        "**Báo cáo** có báo cáo lãi lỗ (P&L), dòng tiền, dự báo và công cụ xuất file."
+       ]
+      },
+      {
+       "title": "Tính lương",
+       "steps": [
+        "**Chi phí kinh doanh** → **Lương** có 3 tab: **Nhân viên**, **Lương nhanh** và **Lịch sử lương**.",
+        "Thêm từng nhân viên kèm phân loại (nhân viên W-2 hoặc cộng tác viên 1099) và cách trả lương. LeNouAI không bao giờ tự quyết định phân loại nhân viên.",
+        "LeNouAI giúp bạn chuẩn bị và ghi lại bảng lương. App không trả lương cho nhân viên và không nộp thuế lương."
+       ]
+      },
+      {
+       "title": "Nợ doanh nghiệp",
+       "steps": [
+        "Theo dõi khoản vay kinh doanh, thẻ tín dụng doanh nghiệp, khoản ứng trước (MCA) và tiền lương còn nợ trong **Nợ doanh nghiệp**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "duo",
+     "icon": "users",
+     "title": "LeNou Duo",
+     "items": [
+      {
+       "title": "Dùng chung với một người khác",
+       "steps": [
+        "**Cài đặt** → **LeNou Duo** → mời người dùng Duo → tạo link mời và gửi cho họ.",
+        "Mỗi link chỉ dùng được một lần và hết hạn sau 7 ngày. Mỗi người vẫn đăng nhập bằng tài khoản riêng."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plans",
+     "icon": "credit-card",
+     "title": "Gói dịch vụ và thanh toán",
+     "items": [
+      {
+       "title": "Các gói",
+       "steps": [
+        "Personal: $19.99/tháng hoặc $199.99/năm.",
+        "Personal Duo: $29.99/tháng hoặc $299.99/năm.",
+        "Business: $39.99/tháng hoặc $399.99/năm.",
+        "Business Duo: $49.99/tháng hoặc $499.99/năm.",
+        "Giá tính bằng USD. Gói đăng ký do Apple bán và thu tiền qua App Store."
+       ]
+      },
+      {
+       "title": "Quản lý gói đăng ký",
+       "steps": [
+        "**Cài đặt** → **Gói đăng ký**: chọn gói, dùng **Khôi phục giao dịch** sau khi cài lại app, hoặc bấm **Quản lý trong App Store** để đổi hoặc hủy gói.",
+        "Bạn cũng có thể hủy trong Cài đặt của iPhone → tên của bạn → Đăng ký. Muốn hoàn tiền thì yêu cầu với Apple."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "account",
+     "icon": "shield",
+     "title": "Tài khoản, quyền riêng tư và bảo mật",
+     "items": [
+      {
+       "title": "Đổi hoặc đặt lại mật khẩu",
+       "steps": [
+        "**Cài đặt** → **Quyền riêng tư và bảo mật** → **Đổi mật khẩu**.",
+        "Quên mật khẩu? Ở màn hình đăng nhập, bấm **Quên mật khẩu?** và làm theo mã được gửi tới email của bạn."
+       ]
+      },
+      {
+       "title": "Xuất hoặc xóa dữ liệu",
+       "steps": [
+        "Nếu muốn giữ một bản, bạn có thể xuất dữ liệu trong **Quyền riêng tư và bảo mật** trước.",
+        "Để xóa tài khoản: **Cài đặt** → **Quyền riêng tư và bảo mật** → **Xóa tài khoản**. Gõ DELETE và mật khẩu, rồi chọn xóa ngay hoặc xóa sau 7 ngày. Trong 7 ngày đó bạn vẫn hủy được.",
+        "Xóa tài khoản không tự hủy gói đăng ký trên App Store. Hãy hủy gói trong **Quản lý trong App Store**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "support",
+     "icon": "life-buoy",
+     "title": "Cần hỗ trợ?",
+     "items": [
+      {
+       "title": "Liên hệ với chúng tôi",
+       "steps": [
+        "Gửi email tới contact@lenouai.com. Cho chúng tôi biết chuyện gì đã xảy ra, bạn đang ở màn hình nào, và email bạn dùng để đăng nhập.",
+        "Xin đừng bao giờ gửi mật khẩu hay đầy đủ số thẻ, số tài khoản ngân hàng."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "lang": "es",
+   "languageName": "Español",
+   "navLabel": "Guía",
+   "languageLabel": "Idioma",
+   "pageTitle": "Cómo usar LeNouAI",
+   "pageIntro": "Una guía rápida de las funciones principales de la app LeNouAI para iPhone. Las palabras en negrita son las que ves en pantalla con la app en español.",
+   "tocTitle": "En esta página",
+   "sections": [
+    {
+     "id": "getting-started",
+     "icon": "rocket",
+     "title": "Primeros pasos",
+     "items": [
+      {
+       "title": "Crea tu cuenta",
+       "steps": [
+        "Descarga LeNouAI en el App Store y regístrate con tu correo electrónico.",
+        "Las cuentas nuevas empiezan con una prueba gratuita de 30 días del plan Personal. No necesitas pagar para empezar."
+       ]
+      },
+      {
+       "title": "Conoce la app",
+       "steps": [
+        "Las pestañas de abajo son **Inicio**, **Tareas**, **Escanear recibos** (el botón de cámara en el centro), **Finanzas** y **Planificar mi día**.",
+        "**Ajustes** es el icono de engranaje arriba a la derecha de **Inicio**.",
+        "El botón redondo verde con un lápiz, abajo a la derecha, abre una nota rápida desde casi cualquier pantalla."
+       ]
+      },
+      {
+       "title": "Elige tu zona horaria e idioma",
+       "steps": [
+        "Ve a **Ajustes** → **Mi perfil** → **Preferencias** y revisa tu **Zona horaria**. Las tareas, los recordatorios y las fechas de vencimiento siguen esta zona horaria.",
+        "La app está disponible en inglés, vietnamita, español y chino simplificado."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "assistant",
+     "icon": "sparkles",
+     "title": "Tu asistente de IA",
+     "items": [
+      {
+       "title": "Pregunta o habla",
+       "steps": [
+        "En **Inicio**, toca **Pregunta a Nori** para escribir, o **Habla con Nori** para hablar. En el modo de voz, toca el micrófono cada vez que quieras grabar.",
+        "El asistente se llama Nori de forma predeterminada. Si le pones otro nombre, los botones muestran ese nombre."
+       ]
+      },
+      {
+       "title": "Tú tienes el control",
+       "steps": [
+        "Cuando el asistente sugiere un cambio, como una tarea o un evento nuevo, primero te muestra una propuesta.",
+        "No se guarda nada hasta que la revisas y tocas **Confirmar**."
+       ]
+      },
+      {
+       "title": "Memoria de Nori (opcional)",
+       "steps": [
+        "La memoria está desactivada de forma predeterminada. Actívala en **Ajustes** → **Asistente de IA** → Memoria y acceso rápido → **Memoria de Nori**.",
+        "Pide a Nori que recuerde una preferencia o meta corta, revisa el texto y elige guardarla o dejarla para después."
+       ]
+      },
+      {
+       "title": "Abre el modo de voz desde la pantalla de inicio del iPhone",
+       "steps": [
+        "**Ajustes** → **Asistente de IA** → Memoria y acceso rápido → LeNouAI Quick Access muestra los pasos para crear un Atajo de Apple de un solo toque."
+       ]
+      },
+      {
+       "title": "Límites diarios de IA",
+       "steps": [
+        "Cada plan incluye una cantidad diaria de chat, voz y lectura de recibos con IA. Puedes ver el uso de hoy en **Ajustes** → **Suscripción**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tasks",
+     "icon": "check-square",
+     "title": "Tareas",
+     "items": [
+      {
+       "title": "Añade una tarea",
+       "steps": [
+        "Forma rápida: en **Tareas**, escribe en **Añadir tarea** y toca añadir. Va a **En cualquier momento**, sin fecha de vencimiento.",
+        "Formulario completo: toca + (**Nueva tarea**). Escribe la tarea y, si quieres, añade **Fecha de vencimiento**, **Añadir hora**, **Recordatorios inteligentes**, **Prioridad**, **Repetir**, categoría y notas. Toca guardar.",
+        "También puedes pedirle al asistente que cree una tarea y luego tocar **Confirmar**."
+       ]
+      },
+      {
+       "title": "Hoy, Próximas y En cualquier momento",
+       "steps": [
+        "**Hoy** muestra lo que vence hoy. **Próximas** muestra las tareas de días siguientes.",
+        "**En cualquier momento** guarda las tareas sin fecha de vencimiento. Nunca quedan vencidas."
+       ]
+      },
+      {
+       "title": "Tareas que se repiten",
+       "steps": [
+        "En el formulario de la tarea, toca **Más opciones** → **Repetir** y elige diaria, semanal, mensual, anual o **Personalizado**.",
+        "Ejemplo, nómina los días 1 y 16 de cada mes: elige **Personalizado**, cada 1 mes, los días 1 y 16.",
+        "Importante: la **Fecha de vencimiento** debe ser uno de los días que se repiten. Con los días 1 y 16, pon como fecha de vencimiento el próximo 1 o 16; si no, la tarea no se puede guardar.",
+        "Para terminar una tarea que se repite, abre una fecha pendiente y toca **Detener repeticiones**. El historial completado se conserva."
+       ]
+      },
+      {
+       "title": "Recordatorios",
+       "steps": [
+        "Pon a la tarea una **Fecha de vencimiento** y usa **Añadir hora**. **Recordatorios inteligentes** elige las horas según la prioridad, o puedes elegirlas tú."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "calendar",
+     "icon": "calendar",
+     "title": "Calendario y recordatorios",
+     "items": [
+      {
+       "title": "Abre el calendario",
+       "steps": [
+        "En **Inicio**, toca **Calendario completo** encima del calendario pequeño, o toca un día del calendario pequeño.",
+        "Cambia entre las vistas de día, semana y mes."
+       ]
+      },
+      {
+       "title": "Añade un evento o un recordatorio",
+       "steps": [
+        "Toca + (**Nueva entrada**) y elige un evento, una tarea o un **Recordatorio**.",
+        "Para un recordatorio, escribe un título, la fecha y la hora, y guarda. Los eventos tienen un interruptor **Notificarme**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plan",
+     "icon": "sun",
+     "title": "Planificar mi día, Resumen diario y Revisión nocturna",
+     "items": [
+      {
+       "title": "Planificar mi día",
+       "steps": [
+        "Abre **Planificar mi día** y toca **Añadir tareas** para elegir las tareas de un día. Elige todo el día o una hora, y guarda.",
+        "Planificar una tarea no cambia su fecha de vencimiento. **Quitar de Mi plan** la saca del plan sin borrarla."
+       ]
+      },
+      {
+       "title": "Resumen diario",
+       "steps": [
+        "Desde **Inicio**, abre el **Resumen diario** para ver en un solo lugar las tareas planificadas para hoy, las tareas vencidas y los eventos del calendario."
+       ]
+      },
+      {
+       "title": "Revisión nocturna",
+       "steps": [
+        "La **Revisión nocturna** muestra lo que terminaste hoy y lo que sigue pendiente, y te deja planificar mañana."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "notes",
+     "icon": "pen-line",
+     "title": "Notas",
+     "items": [
+      {
+       "title": "Nota rápida",
+       "steps": [
+        "Toca el botón redondo verde con el lápiz. Elige **Escribir una nota** o **Grabar una nota de voz**.",
+        "Para ver todas tus notas, toca **Ver todas las notas**. Las notas tienen carpetas, búsqueda y archivo."
+       ]
+      },
+      {
+       "title": "Notas de voz",
+       "steps": [
+        "La grabación original y su transcripción siempre se conservan.",
+        "**Editar transcripción** guarda tus correcciones por separado, así el original nunca cambia."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "receipts",
+     "icon": "camera",
+     "title": "Escanear recibos",
+     "items": [
+      {
+       "title": "Escanea un recibo",
+       "steps": [
+        "Toca **Escanear recibos**, el botón de cámara en el centro de las pestañas, y toma una foto del recibo.",
+        "La app lee el recibo para que lo revises. No se registra ningún gasto hasta que lo confirmas."
+       ]
+      },
+      {
+       "title": "Encuentra recibos anteriores",
+       "steps": [
+        "Toca **Escanear recibos** → **Ver LeNou Receipt Vault**. Filtra por todos los recibos o los que necesitan revisión, o busca por nombre de la tienda o por el texto del recibo."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "personal-finance",
+     "icon": "wallet",
+     "title": "Finanzas personales",
+     "items": [
+      {
+       "title": "Cómo funciona el dinero en LeNouAI",
+       "steps": [
+        "LeNouAI no se conecta con tu banco. Cada cantidad viene de lo que tú ingresas, así que tus datos siguen en tus manos.",
+        "Abre **Finanzas** → **Personal**. El panel muestra **Mis cuentas**, **Mis ingresos**, **Mis gastos**, **Mis deudas**, **Mi patrimonio** e **Ingreso neto** del mes que elijas."
+       ]
+      },
+      {
+       "title": "Mis cuentas",
+       "steps": [
+        "Añade tus cuentas corrientes, de ahorro y de efectivo con un saldo inicial y su fecha.",
+        "El saldo es el saldo inicial más cada pago, ingreso o transferencia que registres en esa cuenta desde esa fecha.",
+        "Si un saldo parece incorrecto, compáralo con tu estado de cuenta, corrige los movimientos equivocados y luego usa **Conciliar saldo**."
+       ]
+      },
+      {
+       "title": "Facturas y gastos",
+       "steps": [
+        "**Mis gastos** tiene **Facturas recurrentes** (alquiler, teléfono, seguro…) y **Gastos únicos**.",
+        "En **Inicio**, **Gasto rápido** añade un gasto del día a día al instante. Revisa **Pagado con** antes de guardar: elige la cuenta de donde salió el dinero para que su saldo baje."
+       ]
+      },
+      {
+       "title": "Cambia una factura",
+       "steps": [
+        "Abre la factura → **Editar solo este período**.",
+        "**Solo este mes** cambia solo el mes actual, incluido el monto y la fecha de vencimiento.",
+        "**Este mes y meses futuros** cambia este mes y todos los siguientes.",
+        "**Cambiar programación recurrente** fija una nueva programación que empieza el mes siguiente. La factura del mes actual no cambia."
+       ]
+      },
+      {
+       "title": "Préstamos (Mis deudas)",
+       "steps": [
+        "**Mis deudas** → **Agregar deuda**: elige el tipo de préstamo y escribe su nombre, el saldo actual y la fecha de ese saldo. La tasa de interés y el pago habitual son opcionales.",
+        "En cada pago, abre el préstamo → **Registrar pago** y divide el monto en **Capital**, **Interés** y **Cargos**. Solo el capital reduce el saldo.",
+        "Si pagas solo intereses, por ejemplo en un préstamo familiar: pon todo el monto en **Interés** y 0 en **Capital**. El saldo del préstamo no cambia y el interés cuenta como gasto de ese mes."
+       ]
+      },
+      {
+       "title": "Tarjetas de crédito",
+       "steps": [
+        "Las tarjetas de crédito están en **Mis deudas**, no en **Mis cuentas**, porque su saldo es dinero que debes.",
+        "Para seguir los intereses, abre la tarjeta → **Intereses y facturación**. Ingresa tu APR en **Ajustes de facturación**.",
+        "Cada mes, cuando cierre el estado de cuenta, usa **Revisar estado de cuenta** para ingresar el saldo, el pago mínimo y el interés cobrado, tal como aparecen impresos."
+       ]
+      },
+      {
+       "title": "Mi patrimonio",
+       "steps": [
+        "Añade bienes como una casa, vehículos, inversiones o cuentas de jubilación con su valor estimado. El efectivo y los ahorros van en **Mis cuentas**, no aquí."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "business",
+     "icon": "briefcase",
+     "title": "Herramientas para negocios",
+     "items": [
+      {
+       "title": "Para quién es",
+       "steps": [
+        "Las herramientas para negocios vienen incluidas en los planes Business y Business Duo.",
+        "Mantén el dinero del negocio separado del personal. Cambia arriba en **Finanzas**: **Personal** o **Negocio**."
+       ]
+      },
+      {
+       "title": "Perfiles de negocio",
+       "steps": [
+        "**Finanzas** → **Negocio** → **Cambiar negocio** → añadir para crear un perfil de negocio. Puedes tener más de un negocio y cambiar entre ellos."
+       ]
+      },
+      {
+       "title": "Panel del negocio",
+       "steps": [
+        "Consulta las cuentas del negocio, **Ingresos del negocio**, **Gastos del negocio**, **Deudas del negocio**, **Valor del negocio** e **Ingreso neto** del mes elegido.",
+        "**Informes** incluye estado de resultados (P&L), flujo de caja, pronóstico y herramientas de exportación."
+       ]
+      },
+      {
+       "title": "Nómina",
+       "steps": [
+        "**Gastos del negocio** → **Nómina** tiene tres pestañas: **Empleados**, **Nómina rápida** e **Historial de nómina**.",
+        "Añade a cada empleado con su clasificación (empleado W-2 o contratista 1099) y su forma de pago. LeNouAI nunca decide la clasificación de un trabajador.",
+        "LeNouAI te ayuda a preparar y registrar la nómina. No paga a los empleados ni presenta impuestos de nómina."
+       ]
+      },
+      {
+       "title": "Deudas del negocio",
+       "steps": [
+        "Lleva el control de préstamos del negocio, tarjetas de crédito del negocio, adelantos en efectivo para comerciantes (MCA) y compensación pendiente de pago en **Deudas del negocio**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "duo",
+     "icon": "users",
+     "title": "LeNou Duo",
+     "items": [
+      {
+       "title": "Comparte con otra persona",
+       "steps": [
+        "**Ajustes** → **LeNou Duo** → invita a alguien a Duo → crea un enlace de invitación y compártelo.",
+        "Cada enlace funciona una sola vez y caduca a los 7 días. Cada persona conserva su propio inicio de sesión."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plans",
+     "icon": "credit-card",
+     "title": "Planes y facturación",
+     "items": [
+      {
+       "title": "Planes",
+       "steps": [
+        "Personal: $19.99/mes o $199.99/año.",
+        "Personal Duo: $29.99/mes o $299.99/año.",
+        "Business: $39.99/mes o $399.99/año.",
+        "Business Duo: $49.99/mes o $499.99/año.",
+        "Los precios están en USD. Apple vende y cobra las suscripciones a través del App Store."
+       ]
+      },
+      {
+       "title": "Administra tu suscripción",
+       "steps": [
+        "**Ajustes** → **Suscripción**: elige un plan, usa **Restaurar compras** después de reinstalar la app, o toca **Gestionar en App Store** para cambiar o cancelar.",
+        "También puedes cancelar en Ajustes del iPhone → tu nombre → Suscripciones. Los reembolsos se solicitan a Apple."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "account",
+     "icon": "shield",
+     "title": "Cuenta, privacidad y seguridad",
+     "items": [
+      {
+       "title": "Cambia o restablece tu contraseña",
+       "steps": [
+        "**Ajustes** → **Privacidad y seguridad** → **Cambiar contraseña**.",
+        "¿La olvidaste? En la pantalla de inicio de sesión, toca **¿Olvidaste tu contraseña?** y sigue el código que te llega por correo."
+       ]
+      },
+      {
+       "title": "Exporta o elimina tus datos",
+       "steps": [
+        "Si quieres una copia, primero puedes exportar tus datos en **Privacidad y seguridad**.",
+        "Para eliminar tu cuenta: **Ajustes** → **Privacidad y seguridad** → **Eliminar cuenta**. Escribe DELETE y tu contraseña, y elimínala ahora o dentro de 7 días. Puedes cancelar durante esos 7 días.",
+        "Eliminar tu cuenta no cancela la suscripción del App Store. Cancélala en **Gestionar en App Store**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "support",
+     "icon": "life-buoy",
+     "title": "¿Necesitas ayuda?",
+     "items": [
+      {
+       "title": "Contáctanos",
+       "steps": [
+        "Escribe a contact@lenouai.com. Cuéntanos qué pasó, en qué pantalla estabas y el correo con el que inicias sesión.",
+        "Nunca envíes contraseñas ni números completos de tarjeta o de cuenta bancaria."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "zh-CN": {
+   "lang": "zh-CN",
+   "languageName": "简体中文",
+   "navLabel": "使用指南",
+   "languageLabel": "语言",
+   "pageTitle": "LeNouAI 使用指南",
+   "pageIntro": "LeNouAI iPhone 应用主要功能的快速指南。粗体文字是应用切换为简体中文时你在屏幕上看到的文字。",
+   "tocTitle": "本页内容",
+   "sections": [
+    {
+     "id": "getting-started",
+     "icon": "rocket",
+     "title": "开始使用",
+     "items": [
+      {
+       "title": "创建账户",
+       "steps": [
+        "在 App Store 下载 LeNouAI，并用电子邮箱注册。",
+        "新账户可免费试用 Personal 套餐 30 天，开始时无需付款。"
+       ]
+      },
+      {
+       "title": "认识应用",
+       "steps": [
+        "底部标签依次为 **首页**、**任务**、**扫描收据**（中间的相机按钮）、**财务** 和 **规划我的一天**。",
+        "**设置** 是 **首页** 右上角的齿轮图标。",
+        "右下角的绿色圆形笔按钮几乎在任何页面都能打开快速笔记。"
+       ]
+      },
+      {
+       "title": "设置时区和语言",
+       "steps": [
+        "前往 **设置** → **我的资料** → **偏好设置**，检查你的 **时区**。任务、提醒和到期日都按这个时区计算。",
+        "应用支持英语、越南语、西班牙语和简体中文。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "assistant",
+     "icon": "sparkles",
+     "title": "你的 AI 助手",
+     "items": [
+      {
+       "title": "打字提问或语音对话",
+       "steps": [
+        "在 **首页**，点 **问问Nori** 打字提问，或点 **与Nori对话** 用语音交流。在语音模式下，每次想录音时都要点一下麦克风。",
+        "助手默认名为 Nori。如果你给它改了名字，按钮上会显示新名字。"
+       ]
+      },
+      {
+       "title": "由你做决定",
+       "steps": [
+        "当助手建议修改内容（例如新建任务或日程）时，会先显示一个提案。",
+        "在你查看并点 **确认** 之前，不会保存任何内容。"
+       ]
+      },
+      {
+       "title": "Nori 记忆（可选）",
+       "steps": [
+        "记忆功能默认关闭。在 **设置** → **AI 助手** → 记忆与快捷访问 → **Nori 记忆** 中开启。",
+        "让 Nori 记住一个简短的偏好或目标，查看文字后选择保存或稍后再说。"
+       ]
+      },
+      {
+       "title": "从 iPhone 主屏幕打开语音模式",
+       "steps": [
+        "**设置** → **AI 助手** → 记忆与快捷访问 → LeNouAI Quick Access 会列出创建一键 Apple 快捷指令的步骤。"
+       ]
+      },
+      {
+       "title": "每日 AI 用量",
+       "steps": [
+        "每个套餐都包含每天一定额度的 AI 聊天、语音和收据识别。在 **设置** → **订阅** 中可以查看今天的用量。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tasks",
+     "icon": "check-square",
+     "title": "任务",
+     "items": [
+      {
+       "title": "添加任务",
+       "steps": [
+        "快捷方式：在 **任务** 中，在 **添加任务** 输入框里输入内容并点添加。任务会放在 **随时** 中，没有到期日。",
+        "完整表单：点 +（**新任务**）。填写任务内容，可选填 **到期日**、**添加时间**、**智能提醒**、**优先级**、**重复**、分类和备注，然后保存。",
+        "你也可以让助手帮你创建任务，再点 **确认**。"
+       ]
+      },
+      {
+       "title": "今天、即将到来和随时",
+       "steps": [
+        "**今天** 显示今天到期的任务。**即将到来** 显示之后日期的任务。",
+        "**随时** 存放没有到期日的任务，它们永远不会逾期。"
+       ]
+      },
+      {
+       "title": "重复任务",
+       "steps": [
+        "在任务表单中，点 **更多选项** → **重复**，选择每天、每周、每月、每年或 **自定义**。",
+        "例如每月 1 日和 16 日发工资：选择 **自定义**，每 1 个月，在 1 日和 16 日。",
+        "注意：**到期日** 必须是重复日之一。以 1 日和 16 日为例，请把到期日设为下一个 1 日或 16 日，否则无法保存。",
+        "要结束重复任务，打开一个未完成的日期并点 **停止循环**。已完成的记录会保留。"
+       ]
+      },
+      {
+       "title": "提醒",
+       "steps": [
+        "为任务设置 **到期日** 并使用 **添加时间**。**智能提醒** 会按优先级选择提醒时间，你也可以自己选择。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "calendar",
+     "icon": "calendar",
+     "title": "日历和提醒",
+     "items": [
+      {
+       "title": "打开日历",
+       "steps": [
+        "在 **首页**，点小日历上方的 **完整日历**，或点小日历中的某一天。",
+        "可在日、周、月视图之间切换。"
+       ]
+      },
+      {
+       "title": "添加日程或提醒",
+       "steps": [
+        "点 +（**新条目**），选择日程、任务或 **提醒**。",
+        "添加提醒时，输入标题、日期和时间后保存。日程有 **通知我** 开关。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plan",
+     "icon": "sun",
+     "title": "规划我的一天、每日简报和晚间回顾",
+     "items": [
+      {
+       "title": "规划我的一天",
+       "steps": [
+        "打开 **规划我的一天**，点 **添加任务** 选择某一天要做的任务。选择全天或具体时间后保存。",
+        "把任务放进计划不会改变它的到期日。**从我的计划移除** 只是把它移出计划，不会删除任务。"
+       ]
+      },
+      {
+       "title": "每日简报",
+       "steps": [
+        "在 **首页** 打开 **每日简报**，一次查看今天计划的任务、逾期任务和日历日程。"
+       ]
+      },
+      {
+       "title": "晚间回顾",
+       "steps": [
+        "**晚间回顾** 显示你今天完成了什么、还有哪些未完成，并可以规划明天。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "notes",
+     "icon": "pen-line",
+     "title": "笔记",
+     "items": [
+      {
+       "title": "快速笔记",
+       "steps": [
+        "点绿色圆形笔按钮，选择 **输入备注** 或 **录制语音备注**。",
+        "要查看所有笔记，点 **查看全部笔记**。笔记支持文件夹、搜索和归档。"
+       ]
+      },
+      {
+       "title": "语音笔记",
+       "steps": [
+        "原始录音和原始转录文本会一直保留。",
+        "**编辑转录文本** 会把你的修改单独保存，原文永远不会被改动。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "receipts",
+     "icon": "camera",
+     "title": "扫描收据",
+     "items": [
+      {
+       "title": "扫描收据",
+       "steps": [
+        "点底部中间的相机按钮 **扫描收据**，然后拍下收据。",
+        "应用会识别收据供你检查。在你确认之前，不会记录任何支出。"
+       ]
+      },
+      {
+       "title": "查找以前的收据",
+       "steps": [
+        "点 **扫描收据** → **查看 LeNou Receipt Vault**。可按全部收据或待检查筛选，也可按商家名称或收据文字搜索。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "personal-finance",
+     "icon": "wallet",
+     "title": "个人财务",
+     "items": [
+      {
+       "title": "LeNouAI 如何记账",
+       "steps": [
+        "LeNouAI 不连接你的银行。所有金额都来自你自己的输入，数据始终由你掌握。",
+        "打开 **财务** → **个人**。概览显示所选月份的 **我的账户**、**我的收入**、**我的支出**、**我的债务**、**我的财富** 和 **净收入**。"
+       ]
+      },
+      {
+       "title": "我的账户",
+       "steps": [
+        "添加支票账户、储蓄账户和现金账户，并填写起始余额及其日期。",
+        "余额等于起始余额，加上从那天起你在该账户记录的每一笔付款、收入或转账。",
+        "如果余额看起来不对，请与银行对账单核对，改正记错的条目，然后使用 **余额对账**。"
+       ]
+      },
+      {
+       "title": "账单和支出",
+       "steps": [
+        "**我的支出** 包括 **定期账单**（房租、话费、保险等）和 **一次性支出**。",
+        "在 **首页**，**快速记账** 可以快速记录日常支出。保存前请检查 **付款账户**：选择实际付款的账户，这样该账户的余额才会减少。"
+       ]
+      },
+      {
+       "title": "修改账单",
+       "steps": [
+        "打开账单 → **仅编辑本期**。",
+        "**仅本月** 只修改当前月份，包括金额和到期日。",
+        "**本月及未来月份** 修改本月以及之后的每个月。",
+        "**更改定期计划** 设置从下个月开始的新计划，当前月份的账单保持不变。"
+       ]
+      },
+      {
+       "title": "贷款（我的债务）",
+       "steps": [
+        "**我的债务** → **添加债务**：选择贷款类型，输入名称、当前余额及该余额的日期。利率和平时还款额可不填。",
+        "每次还款时，打开贷款 → **记录付款**，把金额拆分为 **本金**、**利息** 和 **费用**。只有本金会减少贷款余额。",
+        "只付利息（例如向家人借的钱）：把全部金额填在 **利息**，**本金** 填 0。贷款余额不变，利息计入当月支出。"
+       ]
+      },
+      {
+       "title": "信用卡",
+       "steps": [
+        "信用卡放在 **我的债务** 中，而不是 **我的账户**，因为卡上的余额是你欠的钱。",
+        "要跟踪利息，打开信用卡 → **利息与账单**，在 **账单设置** 中输入 APR。",
+        "每月账单出来后，用 **核对账单** 按账单上印的内容输入账单余额、最低还款额和收取的利息。"
+       ]
+      },
+      {
+       "title": "我的财富",
+       "steps": [
+        "添加房产、车辆、投资或退休账户等资产及其估计价值。现金和储蓄请放在 **我的账户**，不要放在这里。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "business",
+     "icon": "briefcase",
+     "title": "商业工具",
+     "items": [
+      {
+       "title": "适用对象",
+       "steps": [
+        "Business 和 Business Duo 套餐包含商业工具。",
+        "请把商业资金和个人资金分开。在 **财务** 顶部切换：**个人** 或 **商业**。"
+       ]
+      },
+      {
+       "title": "企业资料",
+       "steps": [
+        "**财务** → **商业** → **切换企业** → 添加，即可创建企业资料。你可以有多个企业，并在它们之间切换。"
+       ]
+      },
+      {
+       "title": "企业概览",
+       "steps": [
+        "查看所选月份的企业账户、**业务收入**、**商业支出**、**企业债务**、**企业资产价值** 和 **净收入**。",
+        "**报告** 提供损益表（P&L）、现金流、预测和导出工具。"
+       ]
+      },
+      {
+       "title": "工资",
+       "steps": [
+        "**商业支出** → **工资** 有三个标签：**员工**、**快速工资** 和 **工资记录**。",
+        "添加每位员工时填写其分类（W-2 员工或 1099 承包商）和计薪方式。LeNouAI 从不替你决定员工分类。",
+        "LeNouAI 帮你准备和记录工资，但不会给员工付款，也不会申报工资税。"
+       ]
+      },
+      {
+       "title": "企业债务",
+       "steps": [
+        "在 **企业债务** 中跟踪企业贷款、企业信用卡、商户现金预付（MCA）和未付薪酬。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "duo",
+     "icon": "users",
+     "title": "LeNou Duo",
+     "items": [
+      {
+       "title": "与另一个人共享",
+       "steps": [
+        "**设置** → **LeNou Duo** → 邀请他人加入 Duo → 创建邀请链接并分享。",
+        "每个链接只能使用一次，7 天后过期。每个人都使用自己的账户登录。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plans",
+     "icon": "credit-card",
+     "title": "套餐和付款",
+     "items": [
+      {
+       "title": "套餐",
+       "steps": [
+        "Personal：每月 $19.99 或每年 $199.99。",
+        "Personal Duo：每月 $29.99 或每年 $299.99。",
+        "Business：每月 $39.99 或每年 $399.99。",
+        "Business Duo：每月 $49.99 或每年 $499.99。",
+        "价格以美元计。订阅由 Apple 通过 App Store 销售和收费。"
+       ]
+      },
+      {
+       "title": "管理订阅",
+       "steps": [
+        "**设置** → **订阅**：选择套餐；重新安装后使用 **恢复购买**；或点 **在 App Store 中管理** 来更改或取消。",
+        "你也可以在 iPhone 设置 → 你的名字 → 订阅 中取消。退款需向 Apple 申请。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "account",
+     "icon": "shield",
+     "title": "账户、隐私与安全",
+     "items": [
+      {
+       "title": "修改或重置密码",
+       "steps": [
+        "**设置** → **隐私与安全** → **修改密码**。",
+        "忘记密码？在登录页面点 **忘记密码？**，按邮件中收到的验证码操作。"
+       ]
+      },
+      {
+       "title": "导出或删除数据",
+       "steps": [
+        "如果想保留一份副本，可以先在 **隐私与安全** 中导出数据。",
+        "删除账户：**设置** → **隐私与安全** → **删除账户**。输入 DELETE 和密码，然后选择立即删除或 7 天后删除。7 天内可以取消。",
+        "删除账户不会取消 App Store 订阅。请在 **在 App Store 中管理** 中取消。"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "support",
+     "icon": "life-buoy",
+     "title": "需要帮助？",
+     "items": [
+      {
+       "title": "联系我们",
+       "steps": [
+        "发送邮件至 contact@lenouai.com。告诉我们发生了什么、你当时在哪个页面，以及你登录用的邮箱。",
+        "请不要发送密码或完整的卡号、银行账号。"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

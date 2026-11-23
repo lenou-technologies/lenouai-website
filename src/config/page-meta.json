@@ -1,0 +1,30 @@
+{
+  "/": {
+    "title": "LeNou AI — Bring clarity to your life and finances",
+    "description": "LeNou AI is being developed to bring personal finance, business organization, daily planning, and a personalized AI assistant together in one thoughtfully designed experience. Coming soon on iOS and Android."
+  },
+  "/about": {
+    "title": "About LeNou AI — Clarity, simplicity, and user control",
+    "description": "The vision behind LeNou AI: simplifying personal and business organization with a calm, user-controlled experience. Currently preparing for public launch."
+  },
+  "/support": {
+    "title": "Support — LeNou AI",
+    "description": "How to reach LeNou AI support, report technical problems, get help with future subscriptions, and find account deletion information."
+  },
+  "/guide": {
+    "title": "How to use LeNouAI | LeNouAI",
+    "description": "A quick guide to the main features of the LeNouAI app for iPhone. Labels in bold are the words you see on screen."
+  },
+  "/contact": {
+    "title": "Contact — LeNou AI",
+    "description": "Contact LeNou AI for general questions and business inquiries."
+  },
+  "/privacy": {
+    "title": "Privacy Policy — LeNou AI",
+    "description": "Privacy Policy for the LeNou Technologies LLC informational website and related communications."
+  },
+  "/terms": {
+    "title": "Terms of Service — LeNou AI",
+    "description": "Terms of Service for the LeNou Technologies LLC informational website."
+  }
+}

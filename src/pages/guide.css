@@ -1,0 +1,21 @@
+/* Guide page only — all selectors scoped with .guide- prefix */
+.guide-hero { padding-bottom: clamp(2rem, 4vw, 3rem); }
+.guide-lang { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin-top: 2rem; }
+.guide-lang-label { font-size: .75rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; color: hsl(var(--gold)); }
+.guide-lang ul { display: flex; flex-wrap: wrap; gap: .4rem; list-style: none; margin: 0; padding: 0; }
+.guide-lang-btn { min-height: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid hsl(var(--green) / .25); background: hsl(var(--card) / .7); color: hsl(var(--green)); font: inherit; font-size: .93rem; cursor: pointer; transition: background-color .2s, color .2s; }
+.guide-lang-btn:hover { background: hsl(var(--accent)); }
+.guide-lang-btn[aria-pressed=true] { background: hsl(var(--green)); color: hsl(var(--primary-foreground)); font-weight: 600; border-color: hsl(var(--green)); }
+.guide-layout { min-width: 0; }
+.guide-toc { min-width: 0; }
+.guide-body { min-width: 0; max-width: 760px; }
+.guide-sec { padding: 2.4rem 0; border-top: 1px solid hsl(var(--border)); scroll-margin-top: 96px; }
+.guide-sec h2 { font-family: var(--app-font-serif); font-weight: 500; font-size: clamp(1.5rem, 3vw, 1.9rem); letter-spacing: -.015em; margin: 0 0 1.2rem; display: flex; gap: .8rem; align-items: baseline; color: hsl(var(--ink)); overflow-wrap: anywhere; }
+.guide-items { display: grid; gap: 1rem; }
+.guide-item { background: hsl(var(--card)); border: 1px solid hsl(var(--border)); border-radius: 1.1rem; padding: 1.3rem 1.4rem; }
+.guide-item h3 { margin: 0 0 .7rem; font-size: 1.05rem; font-weight: 600; color: hsl(var(--green)); }
+.guide-steps { margin: 0; padding: 0; list-style: none; counter-reset: gs; }
+.guide-steps li { counter-increment: gs; position: relative; padding-left: 2.2rem; margin: .55rem 0; color: hsl(150 10% 26%); overflow-wrap: anywhere; }
+.guide-steps li::before { content: counter(gs); position: absolute; left: 0; top: .15em; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: hsl(var(--accent)); color: hsl(var(--green)); font-size: .78rem; font-weight: 600; display: grid; place-items: center; font-variant-numeric: tabular-nums; }
+.guide-steps strong { color: hsl(var(--ink)); font-weight: 600; }
+@media (max-width: 959px) { .guide-toc { background: hsl(var(--card) / .6); border: 1px solid hsl(var(--border)); border-radius: 1rem; padding: 1rem 1.2rem; } }
