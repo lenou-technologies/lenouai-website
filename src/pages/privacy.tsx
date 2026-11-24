@@ -65,6 +65,7 @@ const sections: Sec[] = [
       <li><strong>Supabase (on Amazon Web Services)</strong>: hosts the App's database and file storage in the United States.</li>
       <li><strong>GitHub (GitHub Pages)</strong>: hosts the Website.</li>
       <li><strong>Porkbun</strong>: our company email.</li>
+      <li><strong>Twilio</strong>: carries calls and text messages to and from our support phone number (see "Text messages").</li>
     </ul>
     <p>We do not sell your personal information. We do not use it for advertising or for cross-app tracking. Financial information is entered by you manually. LeNouAI does not connect to your bank accounts.</p>
     <p>These providers process information for us under their own terms and privacy policies. We may also disclose information when the law requires it, to protect the rights and safety of our users or others, or as part of a business transfer such as a merger or acquisition, with notice where required.</p>
@@ -112,6 +113,11 @@ const sections: Sec[] = [
   { id: 'children', title: 'Children', body: <>
     <p>LeNou AI is intended for people who are 18 or older, and you must confirm that you are at least 18 to create an account. We do not knowingly collect information from children. If you believe a child has given us information, contact us and we will delete it.</p>
   </> },
+  { id: 'sms', title: 'Text messages', body: <>
+    <p>When you call or text the LeNou support number, we receive your phone number, the time and the content of your message, and we use them only to answer you and help with your account. Message frequency varies with your questions. Message and data rates may apply. Reply STOP to stop receiving texts from us, or HELP for help.</p>
+    <p>No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text messaging originator opt-in data and consent will not be shared with any third parties. Our phone provider, Twilio, carries the messages for us only to deliver them.</p>
+    <p>We keep support messages as long as reasonably needed to respond and to keep business records.</p>
+  </> },
   { id: 'changes', title: 'Changes to this policy', body: <>
     <p>We may update this policy when our App, Website, providers or legal requirements change. We will post the updated version here with a new effective date, and we will give additional notice in the App or by email when the law requires it.</p>
   </> },
@@ -128,7 +134,7 @@ export default function Privacy() {
         <p>LeNou AI | {config.legalCompanyName}</p>
       </PageHero>
       <div className="[&_.legal-sec_p+p]:mt-4 [&_.legal-sec_ul]:list-disc [&_.legal-sec_ul]:pl-6 [&_.legal-sec_p+ul]:mt-4 [&_.legal-sec_ul+p]:mt-4">
-        <LegalDoc sections={sections} banner={<><strong>Effective date: October 29, 2026</strong><br /><strong>Last updated: November 23, 2026</strong></>} />
+        <LegalDoc sections={sections} banner={<><strong>Effective date: October 29, 2026</strong><br /><strong>Last updated: November 24, 2026</strong></>} />
       </div>
     </Shell>
   );
