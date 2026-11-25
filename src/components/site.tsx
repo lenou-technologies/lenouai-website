@@ -99,6 +99,28 @@ export function EmailValue({ value, testId }: { value: string; testId: string })
   return <a href={`mailto:${value}`} className="text-link" data-testid={testId}>{value}</a>;
 }
 
+/** The support number: one link that calls on a phone, with the "LENOU" spelling beside it. */
+export function PhoneValue({ testId }: { testId: string }) {
+  if (!has(config.supportPhone)) return <Pending>Phone number pending — not yet configured</Pending>;
+  return (
+    <span>
+      <a href={`tel:${config.supportPhone}`} className="text-link" data-testid={testId}>{config.supportPhoneDisplay}</a>
+      {' '}<span className="fine">({config.supportPhoneWords})</span>
+    </span>
+  );
+}
+
+/** Shown wherever the number invites a text (carrier rules for a "text us" call to action). */
+export function SmsNote() {
+  return (
+    <p className="fine">
+      Text us for help with LeNou products. Message frequency varies with your questions. Message and data rates may apply.
+      Reply STOP to stop texts from us, or HELP for help. We do not share your number for marketing. See our{' '}
+      <Link href="/privacy" className="text-link">Privacy Policy</Link> and <Link href="/terms" className="text-link">Terms</Link>.
+    </p>
+  );
+}
+
 export function TextValue({ value, label }: { value: string; label: string }) {
   return has(value) ? <span>{value}</span> : <Pending>{label}</Pending>;
 }

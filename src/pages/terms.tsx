@@ -1,4 +1,4 @@
-import { Shell, PageHero, EmailValue } from '@/components/site';
+import { Shell, PageHero, EmailValue, PhoneValue } from '@/components/site';
 import { LegalDoc, type Sec } from '@/components/legal';
 import { config, usePageMeta } from '@/lib/site';
 
@@ -39,10 +39,15 @@ const sections: Sec[] = [
     <p>Ownership and processing permissions for content created or uploaded through the future mobile application will be addressed in applicable application terms before launch.</p>
   </> },
   { id: 'email', title: 'Email Communications', body: <>
-    <p>The website provides email links for contacting LeNou Technologies LLC.</p>
+    <p>The website provides email links and a support phone number for contacting LeNou Technologies LLC.</p>
     <p>Please avoid including unnecessary sensitive information in ordinary email messages.</p>
     <p>Information you send to us is handled as described in our Privacy Policy, subject to applicable law and relevant service-provider practices.</p>
     <p>Sending an email does not create a mobile-app account, paid subscription, or other purchase relationship.</p>
+  </> },
+  { id: 'sms', title: 'Text Messages (LeNou Support)', body: <>
+    <p>LeNou Support is a text and phone line run by LeNou Technologies LLC at {config.supportPhoneDisplay} ({config.supportPhoneWords}). When you text us, we reply to your question about LeNou products. We send texts only in reply to you; we do not send marketing texts from this number.</p>
+    <p>Message frequency varies with your questions. Message and data rates may apply. Reply STOP to stop receiving texts from us; we send one message to confirm, then no more. Reply HELP for help, or email <EmailValue value={config.supportEmail} testId="link-terms-sms-email" />.</p>
+    <p>Mobile carriers are not liable for delayed or undelivered messages. How we handle your phone number and messages is explained in the “Text messages” section of our <a href="/privacy">Privacy Policy</a>. We do not share your mobile number or text messaging consent with third parties for marketing.</p>
   </> },
   { id: 'external', title: 'External Services and Links', body: <>
     <p>The website may contain links to third-party websites or services.</p>
@@ -73,8 +78,9 @@ const sections: Sec[] = [
   { id: 'contact', title: 'Contact', body: <>
     <p>{config.legalCompanyName}</p>
     <p>Email: <EmailValue value={config.generalEmail} testId="link-terms-email" /></p>
+    <p>Phone (call or text): <PhoneValue testId="link-terms-phone" /></p>
     <p>Website: <a href={config.websiteUrl}>https://lenouai.com</a></p>
-    <p data-testid="text-terms-date">Effective Date: <strong>October 26, 2026</strong></p>
+    <p data-testid="text-terms-date">Effective Date: <strong>October 26, 2026</strong> · Last updated: <strong>November 25, 2026</strong></p>
   </> },
 ];
 

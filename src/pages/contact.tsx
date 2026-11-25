@@ -1,13 +1,13 @@
 import { Link } from 'wouter';
-import { Shell, PageHero, EmailValue, TextValue } from '@/components/site';
+import { Shell, PageHero, EmailValue, TextValue, PhoneValue, SmsNote } from '@/components/site';
 import { config, usePageMeta } from '@/lib/site';
 
 export default function Contact() {
   usePageMeta('/contact');
   return (
     <Shell>
-      <PageHero eyebrow="Contact" title="Write to us directly.">
-        <p>Email is the simplest way to reach LeNou AI. There is no contact form, so nothing you send passes through this website.</p>
+      <PageHero eyebrow="Contact" title="Write, call or text us.">
+        <p>Email us, or call or text the LeNou support number. There is no contact form, so nothing you send passes through this website.</p>
       </PageHero>
       <div className="wrap narrow">
         <div className="contact-grid">
@@ -20,6 +20,12 @@ export default function Contact() {
             <h2 id="c-biz">Business inquiries</h2>
             <p>Partnership, press, and other business-related correspondence.</p>
             <EmailValue value={config.businessEmail} testId="link-email-business" />
+          </section>
+          <section className="contact-card" aria-labelledby="c-tel">
+            <h2 id="c-tel">Call or text</h2>
+            <p>The LeNou support line, for questions about LeNou products.</p>
+            <PhoneValue testId="link-phone-contact" />
+            <SmsNote />
           </section>
           <section className="contact-card" aria-labelledby="c-sup">
             <h2 id="c-sup">Product support</h2>

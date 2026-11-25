@@ -1,4 +1,4 @@
-import { Shell, PageHero, EmailValue } from '@/components/site';
+import { Shell, PageHero, EmailValue, PhoneValue } from '@/components/site';
 import { LegalDoc, type Sec } from '@/components/legal';
 import { config, usePageMeta } from '@/lib/site';
 
@@ -114,7 +114,7 @@ const sections: Sec[] = [
     <p>LeNou AI is intended for people who are 18 or older, and you must confirm that you are at least 18 to create an account. We do not knowingly collect information from children. If you believe a child has given us information, contact us and we will delete it.</p>
   </> },
   { id: 'sms', title: 'Text messages', body: <>
-    <p>When you call or text the LeNou support number, we receive your phone number, the time and the content of your message, and we use them only to answer you and help with your account. Message frequency varies with your questions. Message and data rates may apply. Reply STOP to stop receiving texts from us, or HELP for help.</p>
+    <p>When you call or text the LeNou support number, {config.supportPhoneDisplay} ({config.supportPhoneWords}), we receive your phone number, the time and the content of your message, and we use them only to answer you and help with your account. Message frequency varies with your questions. Message and data rates may apply. Reply STOP to stop receiving texts from us, or HELP for help.</p>
     <p>No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text messaging originator opt-in data and consent will not be shared with any third parties. Our phone provider, Twilio, carries the messages for us only to deliver them.</p>
     <p>We keep support messages as long as reasonably needed to respond and to keep business records.</p>
   </> },
@@ -122,7 +122,7 @@ const sections: Sec[] = [
     <p>We may update this policy when our App, Website, providers or legal requirements change. We will post the updated version here with a new effective date, and we will give additional notice in the App or by email when the law requires it.</p>
   </> },
   { id: 'contact', title: 'Contact', body: <>
-    <p>LeNou Technologies LLC<br />Email: <EmailValue value="contact@lenouai.com" testId="link-privacy-email" /><br />Website: <a href="https://lenouai.com">https://lenouai.com</a></p>
+    <p>LeNou Technologies LLC<br />Email: <EmailValue value="contact@lenouai.com" testId="link-privacy-email" /><br />Phone (call or text): <PhoneValue testId="link-privacy-phone" /><br />Website: <a href="https://lenouai.com">https://lenouai.com</a></p>
   </> },
 ];
 
@@ -134,7 +134,7 @@ export default function Privacy() {
         <p>LeNou AI | {config.legalCompanyName}</p>
       </PageHero>
       <div className="[&_.legal-sec_p+p]:mt-4 [&_.legal-sec_ul]:list-disc [&_.legal-sec_ul]:pl-6 [&_.legal-sec_p+ul]:mt-4 [&_.legal-sec_ul+p]:mt-4">
-        <LegalDoc sections={sections} banner={<><strong>Effective date: October 29, 2026</strong><br /><strong>Last updated: November 24, 2026</strong></>} />
+        <LegalDoc sections={sections} banner={<><strong>Effective date: October 29, 2026</strong><br /><strong>Last updated: November 25, 2026</strong></>} />
       </div>
     </Shell>
   );
