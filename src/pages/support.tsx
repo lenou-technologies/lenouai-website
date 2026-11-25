@@ -1,4 +1,4 @@
-import { Shell, PageHero, EmailValue } from '@/components/site';
+import { Shell, PageHero, EmailValue, PhoneValue, SmsNote } from '@/components/site';
 import { config, usePageMeta } from '@/lib/site';
 
 const FAQ = [
@@ -20,8 +20,10 @@ export default function Support() {
       <div className="wrap narrow prose-block">
         <section aria-labelledby="s-contact" className="company-card">
           <h2 id="s-contact">Contacting support</h2>
-          <p>Email support directly. Include your device model, operating system version, and a short description of what happened.</p>
-          <p><EmailValue value={config.supportEmail} testId="link-email-support" /></p>
+          <p>Call or text the LeNou support number, or email us. For a technical problem, include your device model, operating system version, and a short description of what happened.</p>
+          <p><strong>Call or text:</strong> <PhoneValue testId="link-phone-support" /></p>
+          <SmsNote />
+          <p><strong>Email:</strong> <EmailValue value={config.supportEmail} testId="link-email-support" /></p>
           <p className="fine">Response times have not been established yet. Never include passwords, payment information, financial records, full account numbers, or other sensitive information in an ordinary email.</p>
         </section>
         <section aria-labelledby="s-faq">
@@ -41,7 +43,7 @@ export default function Support() {
             <li>Note what you were doing when the problem happened.</li>
             <li>Record your device, operating system version, and app version.</li>
             <li>Take a screenshot if it helps, making sure it shows no sensitive personal or financial information.</li>
-            <li>Send the details to the support email above.</li>
+            <li>Send the details to the support email above, or text us a short description.</li>
           </ol>
         </section>
         <section aria-labelledby="s-sub">
